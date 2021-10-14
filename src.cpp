@@ -7,11 +7,11 @@
 #include <thread>
 void help()
 {
-	std::cout<<"-o open text file"<<std::endl;
-	std::cout<<"-s set speed of words in seconds"<<std::endl;
-	std::cout<<"-i index of where reading should start, default value will be starting or where last left for the same file"<<std::endl;
-	std::cout<<"If starting a new file while the previous one was left in the middle, run the new one with an option of \"-i 1\""<<std::endl;
-	std::cout<<"-h display this help message"<<std::endl;
+	std::cout<<"-o open text file."<<std::endl;
+	std::cout<<"-s set speed of words in seconds. Default speed is 0.5 seconds per word."<<std::endl;
+	std::cout<<"-i index of where reading should start, default value will be starting or where last left for the same file."<<std::endl;
+	std::cout<<"If starting a new file while the previous one was left in the middle, run the new one with an option of \"-i 1\"."<<std::endl;
+	std::cout<<"-h display this help message."<<std::endl;
 }
 int main(int argc,char* argv[])
 {
